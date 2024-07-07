@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*Ensure full viewport height*/
+}
+
+.container {
+  text-align: center;
+  /* Center align content */
+}
+
+h1 {
+  width: 90%;
+  border: 2px solid;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin: 10px 0;
+  /* Add vertical margin between h1 elements */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 15pt;
+  text-shadow: 1px 1px 0 blue, 2px 2px 25px deepskyblue, 0 0 25px skyblue;
+}
+
+a:hover {
+  background: red;
+}
